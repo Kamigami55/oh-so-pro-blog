@@ -25,6 +25,7 @@
     "babel-loader": "^8.2.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-plugin-import": "^2.24.2",
     "hygen": "^6.1.0",
     "storybook-dark-mode": "^1.0.8"
   }
