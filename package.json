@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "new-component": "hygen component new"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -24,6 +25,7 @@
     "babel-loader": "^8.2.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "hygen": "^6.1.0",
     "storybook-dark-mode": "^1.0.8"
   }
 }
