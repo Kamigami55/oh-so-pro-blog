@@ -100,12 +100,24 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+
+  display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+
+  display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .logo {
