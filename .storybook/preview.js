@@ -12,3 +12,12 @@ export const parameters = {
     default: 'light',
   },
 }
+
+// Mock Next.js <Image/> component in storybook
+// https://github.com/vercel/next.js/issues/18393#issuecomment-783269086
+import * as NextImage from 'next/image'
+const OriginalNextImage = NextImage.default
+Object.defineProperty(NextImage, 'default', {
+  configurable: true,
+  value: (props) => <OriginalNextImage {...props} unoptimized />,
+})
